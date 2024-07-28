@@ -1,0 +1,273 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* Container styles */
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url('https://wallpapercave.com/wp/wp7453795.jpg') no-repeat center center/cover;
+}
+
+/* Scrolling text styles */
+.scroll-text {
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: -100%;
+    font-size: 5rem; /* Adjust the size as needed */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: scroll-left 10s linear infinite;
+    transform: translateY(-50%);
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Hover effect for scrolling text */
+.scroll-text:hover {
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+
+/* Keyframes for scrolling text animation */
+@keyframes scroll-left {
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Navigation bar list styles */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation bar list item styles */
+.navbar li {
+    padding: 14px 20px;
+}
+
+/* Navigation bar link styles */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Hover effect for navigation bar links */
+.navbar a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+.profile-container {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px; /* Rounded borders for the container */
+    background-color: #ffffff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation */
+    text-align: center;
+}
+
+/* Profile photo styles */
+.profile-photo {
+    display: inline-block;
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    margin-top: 10px;
+    border-radius: 15px; /* Curved borders */
+    overflow: hidden;
+    border: 3px solid rgba(0, 128, 0, 0.5); /* Thin green layer */
+    background-color: #fff; /* Background color to highlight the image borders */
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the full image is visible within the container */
+    display: block;
+}
+.contact-details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-details a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+/* Other existing styles */
+
+/* Styling for the education section */
+/* Other existing styles */
+
+/* Styling for the education section */
+/* Other existing styles */
+
+/* Styling for the education section */
+.education-container {
+    display: block; /* Changed from flex to block to stack items vertically */
+    width: 80%; /* Set a wider width for the container */
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.education-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between each item */
+    width: 100%;
+    text-align: center;
+}
+
+.education-item h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #666666;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .education-container {
+        width: 90%;
+    }
+}
+/* Other existing styles */
+
+/* Other existing styles */
+
+/* Styling for the certificates section */
+/* Other existing styles */
+
+/* Styling for the certificates section */
+.certificates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.certificate-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.certificate-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 60px;
+    height: auto;
+}
+
+.certificate-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.certificate-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.certificate-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Increased width */
+    padding: 20px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px; /* Increased margin */
+    background-color: #f9f9f9;
+}
+
+.certificate-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certificate-box p {
+    margin: 10px 0 0;
+    color: #666666;
+    font-size: 1rem; /* Increased font size */
+    text-align: center;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .certificate-item {
+        padding: 15px;
+    }
+
+    .certificate-box {
+        width: 100%;
+    }
+
+    .certificate-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificate-header img {
+        margin-bottom: 10px;
+    }
+}
