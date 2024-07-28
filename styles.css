@@ -235,7 +235,7 @@ main {
     padding: 20px; /* Increased padding */
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 15px; /* Increased margin */
+    margin: 10px; /* Increased margin */
     background-color: #f9f9f9;
 }
 
@@ -269,5 +269,199 @@ main {
 
     .certificate-header img {
         margin-bottom: 10px;
+    }
+}
+/* Other existing styles */
+
+/* Styling for the skills section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.skill-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 200px; /* Adjust this width as needed */
+    width: 100%;
+    text-align: center;
+}
+
+.skill-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.skill-item h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.skill-item p {
+    margin: 10px 0;
+    color: #666666;
+    font-size: 1rem;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .skill-item {
+        max-width: 100%;
+    }
+}
+/* Other existing styles */
+
+/* Styling for the internships section */
+.internships-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.internship-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Adjust this width as needed */
+    width: 100%;
+    text-align: left;
+}
+
+.internship-item h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.internship-item p {
+    margin: 10px 0;
+    color: #666666;
+    font-size: 1rem;
+}
+
+.certification-proof {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .internship-item {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+/* Other existing styles */
+
+/* Styling for the achievements section */
+.achievements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.achievement-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Adjust this width as needed */
+    width: 100%;
+    text-align: left;
+}
+
+.achievement-item h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.achievement-item p {
+    margin: 10px 0;
+    color: #666666;
+    font-size: 1rem;
+}
+
+.achievement-image {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .achievement-item {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+/* Other existing styles */
+
+/* Styling for the projects section */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.project-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Adjust this width as needed */
+    width: 100%;
+    text-align: left;
+}
+
+.project-item h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.project-item p {
+    margin: 10px 0;
+    color: #666666;
+    font-size: 1rem;
+}
+
+.project-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .project-item {
+        max-width: 100%;
+        padding: 15px;
     }
 }
